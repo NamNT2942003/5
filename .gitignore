@@ -1,0 +1,29 @@
+# Environment files
+.env
+*.env
+!.env.example
+
+# Build and binary artifacts
+build/
+bin/
+target/
+*.jar
+*.war
+*.class
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
